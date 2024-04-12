@@ -1,0 +1,236 @@
+/* ACASA====================== */
+
+.home_page {
+  background-color: var(--text-light);
+}
+.hero_section {
+  background-image: url("/assets/hero.webp");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .hero_section {
+    height: 650px;
+  }
+}
+.hero_overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_content {
+  position: relative;
+  z-index: 1;
+  margin-top: 8rem;
+  margin-left: 3rem;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideLeft 1s forwards;
+}
+
+.text_1,
+.text_2 {
+  color: var(--color-white);
+  font-family: "Marmelad", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.text_2 {
+  line-height: 2rem;
+}
+
+.text_2 span {
+  font-size: 1.3rem;
+  color: var(--color-beige2);
+}
+
+.text_3 {
+  color: var(--color-beige3);
+  font-size: 0.9rem;
+  padding-top: 3rem;
+  line-height: 1.8rem;
+}
+
+.text_3 span {
+  font-size: 0.7rem;
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* BUTTONS */
+
+.horizontal_buttons {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+/* #horizontal_1 {
+  background-color: #042b4e;
+  color: #ebe2d6ff;
+}
+
+#horizontal_1:hover {
+  background-color: #c2b697;
+  color: #042b4e;
+}
+#small {
+  background-color: #042b4e;
+  color: #ebe2d6ff;
+}
+
+#small:hover {
+  background-color: #c2b697;
+  color: #042b4e;
+} */
+
+.horizontal_buttons .butt {
+  background-color: var(--color-beige2);
+  color: var(--color-blue2);
+}
+
+.horizontal_buttons .butt:hover {
+  background-color: var(--color-blue2);
+  color: var(--color-beige3);
+}
+
+.mobile_buttons .butt {
+  background-color: var(--color-beige2);
+  color: var(--color-blue2);
+}
+
+.mobile_buttons .butt:hover {
+  background-color: var(--color-blue2);
+  color: var(--color-beige3);
+}
+
+/* end buttons===== */
+.text_separator {
+  border-left: none;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+@media (min-width: 992px) {
+  .text_separator {
+    border-left: 2px solid var(--text-titles);
+    padding-left: 1rem;
+  }
+}
+
+.first_letter {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--text-first-letter);
+  font-family: Marmelad, sans-serif;
+}
+
+/* INTRO */
+.main_titles {
+  font-family: "Marmelad", sans-serif;
+  color: var(--text-titles);
+}
+
+/* .guide_text {
+  color: #a07613;
+  font-family: "Montserrat", sans-serif;
+  border-left: 2px solid #a07613;
+  padding-left: 5px;
+  font-weight: bold;
+} */
+
+/* SERVICES */
+
+.services_title {
+  font-family: "Marmelad", sans-serif;
+  color: var(--color-beige2);
+}
+.services_text {
+  color: var(--text-light);
+}
+.services_section {
+  background-image: url("/assets/column-services.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+.services_overlay {
+  background-color: rgba(1, 13, 37, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.services_content {
+  position: relative;
+  z-index: 1;
+}
+
+.services_content p {
+  text-indent: 1rem;
+}
+
+.services_section .services_btn {
+  background-color: var(--color-beige2);
+  color: var(--color-black);
+}
+
+.services_section .services_btn:hover {
+  background-color: var(--color-blue4);
+  color: var(--color-white);
+}
+
+/*RECOMMENDATION */
+
+.my_list {
+  list-style-type: none;
+}
+
+.my_list li {
+  position: relative;
+  margin-left: 25px;
+  padding-bottom: 0.6rem;
+}
+
+.my_list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 19%;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-blue);
+  border-radius: 1px;
+}
+
+.square {
+  background-color: var(--color-bronze);
+  color: var(--text-light);
+  height: 12rem;
+  margin-top: -3rem;
+  border: 5px solid var(--color-beige2);
+}
+.square:hover {
+  background-color: var(--color-blue2);
+}

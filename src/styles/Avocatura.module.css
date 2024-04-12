@@ -1,0 +1,85 @@
+.avocatura {
+  line-height: 1rem;
+  overflow: hidden;
+  background-color: var(--text-light);
+}
+.main_titles {
+  font-family: "Marmelad", sans-serif;
+  color: var(--text-titles);
+}
+.subtitle {
+  font-family: "Marmelad", sans-serif;
+}
+.avocatura .card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(5, 1, 25, 0.8);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-weight: lighter;
+}
+
+.avocatura .body {
+  background-color: #072e53;
+  border-bottom: 7px solid #c2b697;
+  color: var(--text-light);
+}
+
+.dinamic_look {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.law_icon {
+  color: #c2b697;
+}
+
+.civil {
+  background-image: url("/assets/civil-law.webp");
+}
+
+.criminal {
+  background-image: url("/assets/criminal-law.webp");
+}
+
+.executare {
+  background-image: url("/assets/executare.webp");
+}
+
+.family {
+  background-image: url("/assets/family-law.webp");
+}
+
+.labor {
+  background-image: url("/assets/labor-law.webp");
+}
+
+.business {
+  background-image: url("/assets/business-law.webp");
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .dinamic_look {
+  transform: scale(1.1);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.more_services {
+  text-indent: 1rem;
+}

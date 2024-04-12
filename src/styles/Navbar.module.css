@@ -1,0 +1,39 @@
+/* NAVBAR====================== */
+/* .nav {
+  font-size: 2rem;
+  font-weight: 500;
+} */
+
+.nav .logo_image {
+  max-width: 70px;
+}
+
+.nav .logo_text {
+  max-width: 200px;
+  margin-left: -1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.active {
+  color: var(--color-beige2);
+  border-bottom: 1px solid var(--color-beige2);
+  padding-bottom: 5px;
+}
+.slide_in {
+  background-color: var(--color-blue);
+  padding-top: 0;
+  padding-top: 0;
+  animation: slide-in 0.8s ease-out;
+}
+@keyframes slide-in {
+  from {
+    transform: translateY(-70%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

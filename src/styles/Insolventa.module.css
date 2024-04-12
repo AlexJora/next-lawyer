@@ -1,0 +1,44 @@
+.insolvancy_page {
+  background-color: var(--text-light);
+}
+.card {
+  background-color: var(--text-light);
+}
+
+.main_titles {
+  font-family: "Marmelad", sans-serif;
+  color: var(--text-titles);
+}
+.subtitle {
+  font-family: "Marmelad", sans-serif;
+}
+@media (min-width: 992px) {
+  .subtitle {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.card_img_top {
+  background-image: url("/assets/insolvency.webp");
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+.card_text {
+  background-color: var(--color-blue3);
+  color: var(--text-light);
+}
+.insolvency_button {
+  background-color: #c2b697;
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.insolvency_button:hover {
+  background-color: #2d6da5;
+}

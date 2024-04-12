@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap=Kumbh+Sans:wght@100..900&display=swap");
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  /* Text Colors */
+  --text-light: #eae4d7;
+  --text-titles: #a07613;
+  --text-first-letter: #b7a06c;
+  /* Brand Colors */
+  --color-beige1: #a79c83;
+  --color-beige2: #c2b697;
+  --color-beige3: #ebe2d6ff;
+  --color-bronze: #be7413;
+  /* Background Colors */
+  --color-blue: #02182b;
+  --color-blue1: #053661;
+  --color-blue2: #042b4e;
+  --color-blue3: #072e53;
+  --color-blue4: #2d6da5;
+}
+
+* {
+  line-height: 1.8rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

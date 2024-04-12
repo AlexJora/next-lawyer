@@ -1,0 +1,41 @@
+/* FOOTER====================== */
+.footer {
+  background-color: var(--color-blue);
+  color: var(--text-light);
+  position: relative;
+  /* font-size: 0.6rem; */
+}
+
+.footer .logo_image {
+  max-width: 50px;
+}
+
+.footer .logo_text {
+  max-width: 150px;
+  margin-left: -1.5rem;
+}
+.footer .content {
+  color: var(--color-beige2);
+}
+.contact_icon {
+  color: var(--color-beige2);
+  font-size: large;
+}
+.contact_icon:hover {
+  color: var(--color-blue4);
+}
+.footer h6 {
+  color: var(--color-beige2);
+}
+.scroll_top {
+  position: absolute;
+  color: var(--text-light);
+  bottom: 5rem;
+  right: 1.5rem;
+  z-index: 999;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  color: var(--text-light);
+}

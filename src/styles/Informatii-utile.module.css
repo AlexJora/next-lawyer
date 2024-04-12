@@ -1,0 +1,41 @@
+.info {
+  background-color: var(--text-light);
+}
+.main_titles {
+  font-family: "Marmelad", sans-serif;
+  color: var(--text-titles);
+}
+
+.accordion_item .accordion_header button {
+  background-color: var(--color-beige2);
+  color: var(--color-blue3);
+}
+
+.title {
+  color: var(--color-beige2);
+}
+.body {
+  background-color: var(--color-blue3);
+  color: var(--text-light);
+}
+
+/* button.accordion_button.collapsed::after {
+  content: "▼" !important;
+  color: #c2b697;
+
+  font-size: 50px;
+  background-image: none !important;
+} */
+/* .accordion_item:not(.collapsed) .accordion_button::after {
+  content: "▲";
+  color: #c2b697;
+  font-size: 20px;
+} */
+
+/* p {
+  text-indent: 1rem;
+} */
+
+/* h5 {
+  color: #be7413;
+} */
