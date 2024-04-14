@@ -1,6 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,7 +10,6 @@ import {
   faCommentsDollar,
   faGavel,
 } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -336,7 +336,7 @@ export default function Home() {
             </div>
           </Col>
           <Col lg={5} md={12} className="order-md-1 pb-3">
-            <ul className={`${styles.my_list}`}>
+            <ul className={`${styles.home_list}`}>
               <li>Experiență vastă în domeniu</li>
               <li>
                 Profesionalism ridicat și abordare orientată spre clienți.

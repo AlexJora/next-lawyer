@@ -1,5 +1,3 @@
-"use client";
-
 import TopBanner from "../components/TopBanner";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +19,7 @@ const Navbar = () => {
               <Link href="/">
                 <span>
                   <Image
-                    src="/assets/LOGO2.png"
+                    src="/assets/logo.png"
                     className={`${styles.logo_image} img-fluid`}
                     alt="scales of justice logo"
                     width={70}

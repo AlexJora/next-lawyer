@@ -13,7 +13,7 @@ export const Contact = () => {
   return (
     <div className={styles.contact_page}>
       <h1 className={`${styles.main_titles} text-center pt-4 fs-4 pb-lg-4`}>
-        Contact:
+        Contact
       </h1>
       <section>
         {/* contact info============ */}
@@ -88,7 +88,7 @@ export const Contact = () => {
           <div className="row g-5">
             <div className="col-sm-6 order-sm-first ">
               <div className="contact-text d-flex flex-column ">
-                <h5 className="lh-base text-center pb-4 pt-5">
+                <h5 className="lh-base text-center pb-4 mt-md-5 pt-5">
                   Nu ezitati sa ne contactati
                 </h5>
                 <div className="px-3">

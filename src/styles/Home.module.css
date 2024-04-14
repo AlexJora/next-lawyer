@@ -202,17 +202,17 @@
 
 /*RECOMMENDATION */
 
-.my_list {
+.home_list {
   list-style-type: none;
 }
 
-.my_list li {
+.home_list li {
   position: relative;
   margin-left: 25px;
   padding-bottom: 0.6rem;
 }
 
-.my_list li::before {
+.home_list li::before {
   content: "";
   display: block;
   position: absolute;

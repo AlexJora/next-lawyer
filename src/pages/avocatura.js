@@ -17,16 +17,16 @@ const Avocatura = () => {
         <div>
           <div className="pt-2 text-center">
             <h1
-              className={`${styles.main_titles} text-center pb-1 pb-2 pt-5 fs-4`}
+              className={`${styles.main_titles} lh-base text-center pb-1 pb-2 pt-5 fs-2`}
             >
               Servicii complete de avocatura
             </h1>
-            <h5 className={`${styles.subtitle} lh-lg text-center px-5 pb-4`}>
+            <h5 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
               Oferim consultanță juridică și asistență specializată într-o serie
               de arii de practică
             </h5>
           </div>
-          <div className="row g-5 px-5 pt-4 ">
+          <div className="row g-5 px-3 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className={`${styles.card} h-100`}>
                 <div

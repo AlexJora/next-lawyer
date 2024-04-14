@@ -4,7 +4,7 @@ const info = () => {
   return (
     <div className={styles.info}>
       <h1 className={`${styles.main_titles} text-center pt-4 fs-4 pb-lg-3`}>
-        Informatii utile:
+        Informatii utile
       </h1>
       <Accordion
         defaultActiveKey={["0"]}
