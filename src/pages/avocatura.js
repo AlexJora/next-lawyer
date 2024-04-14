@@ -1,5 +1,5 @@
 import styles from "@/styles/Avocatura.module.css";
-
+import Head from "next/head";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGavel,
@@ -13,6 +13,17 @@ import {
 const Avocatura = () => {
   return (
     <>
+     <Head>
+     <title>
+            Servicii de Avocatura | Avocat Bucuresti | Cabinet de avocat si
+            insolventa Alina Marin
+          </title>
+          <link rel="canonical" href="https://alinamarin.ro/avocatura" />
+          <meta
+            name="description"
+            content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+          />
+      </Head>
       <main className={styles.avocatura}>
         <div>
           <div className="pt-2 text-center">

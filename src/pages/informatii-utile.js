@@ -1,7 +1,20 @@
 import styles from "@/styles/Informatii-utile.module.css";
+import Head from "next/head";
 import Accordion from "react-bootstrap/Accordion";
 const info = () => {
   return (
+    <>
+    <Head>
+    <title>
+      Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin
+    </title>
+    <meta
+      name="description"
+      content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.PNG" />
+  </Head>
     <div className={styles.info}>
       <h1 className={`${styles.main_titles} text-center pt-4 fs-4 pb-lg-3`}>
         Informatii utile
@@ -289,8 +302,9 @@ const info = () => {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-      {/* </div> */}
+      
     </div>
+    </>
   );
 };
 

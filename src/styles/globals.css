@@ -19,17 +19,15 @@
   --color-blue3: #072e53;
   --color-blue4: #2d6da5;
 }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
 
 * {
-  line-height: 1.8rem;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-  font-family: "Kumbh Sans", sans-serif;
-}
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
