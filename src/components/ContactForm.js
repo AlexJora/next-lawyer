@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import styles from "@/styles/Contact.module.css";
 const ContactForm = () => {
   const [status, setStatus] = useState("Trimite mesaj");
