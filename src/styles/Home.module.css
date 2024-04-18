@@ -4,16 +4,29 @@
   background-color: var(--text-light);
 }
 .hero_section {
+  height: 80vh;
+  position: relative;
+}
+.hero_img {
+  object-fit: cover;
+  object-position: center;
+}
+/* .hero_section {
   background-image: url("/assets/hero.webp");
   height: 500px;
   background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
-}
+} */
 @media (min-width: 768px) {
   .hero_section {
-    height: 650px;
+    height: 50vh;
+  }
+}
+@media (min-width: 992px) {
+  .hero_section {
+    height: 100vh;
   }
 }
 .hero_overlay {
@@ -23,6 +36,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .hero_content {
@@ -103,6 +117,7 @@
 .horizontal_buttons .butt {
   background-color: var(--color-beige2);
   color: var(--color-blue2);
+  height: 90px;
 }
 
 .horizontal_buttons .butt:hover {
@@ -146,14 +161,6 @@
   font-family: "Marmelad", sans-serif;
   color: var(--text-titles);
 }
-
-/* .guide_text {
-  color: #a07613;
-  font-family: "Montserrat", sans-serif;
-  border-left: 2px solid #a07613;
-  padding-left: 5px;
-  font-weight: bold;
-} */
 
 /* SERVICES */
 

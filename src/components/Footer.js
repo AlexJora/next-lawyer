@@ -22,17 +22,17 @@ const Footer = () => {
             <span>
               <Image
                 src="/assets/logo.png"
-                className={`${styles.logo_image} img-fluid me-1`}
+                className={`${styles.logo_image} me-1`}
                 alt="scales of justice logo"
                 width={50}
                 height={50}
               />
               <Image
                 src="/assets/component.png"
-                className={`${styles.logo_text} img-fluid px-0`}
+                className={`${styles.logo_text} px-0`}
                 alt="Alina Marin cabinet de avocatura si insolventa"
                 width={150}
-                height={100}
+                height={40}
               />
             </span>
             <p className={`${styles.content} pt-3 px-3`}>

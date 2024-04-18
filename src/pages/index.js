@@ -31,6 +31,13 @@ export default function Home() {
         <Container fluid>
           <Row>
             <div className={`${styles.hero_section}`}>
+              <Image
+                className={styles.hero_img}
+                priority
+                src="/assets/hero.webp"
+                fill
+                alt="hero image example"
+              />
               <div className={styles.hero_overlay}></div>
               <div
                 className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pt-6 slide`}
@@ -43,9 +50,9 @@ export default function Home() {
                   </span>
                 </div>
                 <Col md={7} className={`${styles.text_3} fst-italic fw-light`}>
-                  "Nu este o adevărată justiție acolo unde nu există dreptate,
-                  iar dreptatea nu poate fi găsită acolo unde nu există adevăr."
-                  - <span>Lucius Annaeus Seneca.</span>
+                  &quot;Nu este o adevărată justiție acolo unde nu există
+                  dreptate, iar dreptatea nu poate fi găsită acolo unde nu
+                  există adevăr.&quot; - <span>Lucius Annaeus Seneca</span>
                 </Col>
               </div>
 
@@ -142,7 +149,7 @@ export default function Home() {
             <Col md={7} xs={12}>
               <div className="card-body">
                 <h1
-                  className={`${styles.main_titles} pt-5 pt-md-0 text-center pb-4 fs-3 mx-auto lh-base`}
+                  className={`${styles.main_titles} pt-md-0 text-center pb-4 fs-3 mx-auto lh-base`}
                 >
                   Va confruntați cu o problemă juridică sau de insolvență?
                 </h1>
@@ -202,10 +209,11 @@ export default function Home() {
                     <div className="d-flex align-items-center">
                       <Image
                         src="/assets/barou.webp"
-                        className="img-fluid mx-auto d-block rounded-2 pb-4"
+                        className="mx-auto d-block pb-4"
                         alt="sigla barou Bucuresti"
-                        width={170}
-                        height={170}
+                        width={200}
+                        height={200}
+                        fetchpriority="high"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-lg-5`}>
@@ -232,9 +240,9 @@ export default function Home() {
                     <div className="d-flex align-items-center">
                       <Image
                         src="/assets/unpir.webp"
-                        className="img-fluid mx-auto d-block rounded-2 mb-4"
+                        className="mx-auto d-block mb-4"
                         alt="sigla unpir"
-                        width={170}
+                        width={200}
                         height={170}
                       />
                     </div>

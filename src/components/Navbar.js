@@ -20,17 +20,17 @@ const Navbar = () => {
                 <span>
                   <Image
                     src="/assets/logo.png"
-                    className={`${styles.logo_image} img-fluid`}
+                    className={`${styles.logo_image}`}
                     alt="scales of justice logo"
                     width={70}
                     height={70}
                   />
                   <Image
                     src="/assets/component.png"
-                    className={`${styles.logo_text} img-fluid px-0`}
+                    className={`${styles.logo_text} px-0`}
                     alt="Alina Marin cabinet de avocatura si insolventa"
                     width={200}
-                    height={100}
+                    height={50}
                   />
                 </span>
               </Link>
