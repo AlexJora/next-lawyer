@@ -13,16 +13,16 @@ import {
 const Avocatura = () => {
   return (
     <>
-     <Head>
-     <title>
-            Servicii de Avocatura | Avocat Bucuresti | Cabinet de avocat si
-            insolventa Alina Marin
-          </title>
-          <link rel="canonical" href="https://alinamarin.ro/avocatura" />
-          <meta
-            name="description"
-            content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
-          />
+      <Head>
+        <title>
+          Servicii de Avocatura | Avocat Bucuresti | Cabinet de avocat si
+          insolventa Alina Marin
+        </title>
+        <link rel="canonical" href="https://alinamarin.ro/avocatura" />
+        <meta
+          name="description"
+          content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+        />
       </Head>
       <main className={styles.avocatura}>
         <div>
@@ -30,7 +30,7 @@ const Avocatura = () => {
             <h1
               className={`${styles.main_titles} lh-base text-center pb-1 pb-2 pt-5 fs-2`}
             >
-              Servicii complete de avocatura
+              Servicii de avocatura
             </h1>
             <h5 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
               Oferim consultanță juridică și asistență specializată într-o serie
@@ -52,7 +52,7 @@ const Avocatura = () => {
                     size="2x"
                   />
                   <h6 className="text-light card-title pb-4">DREPT CIVIL</h6>
-                  <p className="card-text px-3">
+                  <p className="card-text px-3 lh-base ">
                     Servicii de consultanță juridică, asistare și reprezentare
                     în fața instanțelor de judecată, redactare cereri de chemare
                     în judecată. Vă ajutăm să rezolvați rapid problema juridică.
@@ -74,7 +74,7 @@ const Avocatura = () => {
                     size="2x"
                   />
                   <h6 className="text-light card-title pb-4">DREPT PENAL</h6>
-                  <p className="card-text px-3">
+                  <p className="card-text px-3 lh-base ">
                     Asistență și reprezentare juridică în fața organelor de
                     urmărire penală și în fața instanțelor de judecată,
                     redactare cereri și plângeri împotriva măsurilor și actelor
@@ -100,7 +100,7 @@ const Avocatura = () => {
                   <h6 className="text-light card-title pb-4">
                     EXECUTARE SILITA
                   </h6>
-                  <p className="card-text px-3">
+                  <p className="card-text px-3 lh-base ">
                     În materia executării silite, serviciile oferite sunt
                     indiferent de calitatea pe care o aveți în această procedură
                     – debitor sau creditor. Pasivitatea poate avea consecințe
@@ -127,7 +127,7 @@ const Avocatura = () => {
                   <h6 className="text-light card-title pb-4">
                     DREPTUL FAMILIEI - DIVORT SI PARTAJ
                   </h6>
-                  <p className="card-text px-3">
+                  <p className="card-text px-3 lh-base">
                     Servicii de asistare și reprezentare juridică în procesele
                     de divorț, partaj, exercitarea autorității părintești,
                     pensie de întreținere, program de vizită minor.
@@ -148,8 +148,10 @@ const Avocatura = () => {
                     size="2x"
                     className={`${styles.law_icon} pb-4`}
                   />
-                  <h6 className="text-light card-title pb-4">DREPTUL MUNCII</h6>
-                  <p className="card-text px-3">
+                  <h6 className="text-light card-title pb-4 lh-base">
+                    DREPTUL MUNCII
+                  </h6>
+                  <p className="card-text px-3 lh-base ">
                     Oferim servicii de avocatură profesionale, concretizate prin
                     redactarea contestației împotriva deciziei de concediere,
                     împotriva deciziei de sancționare disciplinară, obligarea
@@ -175,7 +177,7 @@ const Avocatura = () => {
                   <h6 className="text-light card-title pb-4">
                     DREPTUL COMERCIAL SI SOCIETAR
                   </h6>
-                  <p className="card-text px-3">
+                  <p className="card-text px-3 lh-base">
                     Înființări societăți comerciale la Registrul Comerțului,
                     schimbare sediu social, înființare/radiere punct de lucru,
                     redactare acte constitutive, hotărâri ale adunării generale
@@ -186,7 +188,7 @@ const Avocatura = () => {
             </div>
           </div>
           <div className="container py-4 ">
-            <p className={`${styles.more_services} py-4 px-3`}>
+            <p className={`${styles.more_services} py-4 px-3 lh-base`}>
               Alte domenii de activitate în care vă oferim consultanță, asistare
               și reprezentare în fața instanțelor de judecată sau a altor
               instituții ale statului: RECUPERARE CREANTE, PENSII SI ALTE

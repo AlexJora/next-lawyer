@@ -32,29 +32,32 @@ export default function Home() {
           <Row>
             <div className={`${styles.hero_section}`}>
               <Image
-                className={styles.hero_img}
-                priority
                 src="/assets/hero.webp"
+                alt="Imaginea Justiției cu balanța dreptății"
+                className={styles.hero_img}
+                sizes="100vw"
+                priority
                 fill
-                alt="hero image example"
               />
               <div className={styles.hero_overlay}></div>
-              <div
-                className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pt-6 slide`}
+              <Col
+                className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <div className={`${styles.text_1} fs-2 pb-3`}>ALINA MARIN</div>
-                <div className={`${styles.text_2} fs-4`}>
+                <div className={`${styles.text_1} fs-3 pb-3 pt-lg-5 mt-lg-3`}>
+                  ALINA MARIN
+                </div>
+                <div className={`${styles.text_2} fs-5`}>
                   BIROU DE AVOCATURA SI INSOLVENTA
                   <span className="fw-bold">
                     <br></br> Bucuresti{" "}
                   </span>
                 </div>
-                <Col md={7} className={`${styles.text_3} fst-italic fw-light`}>
+                <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>
                   &quot;Nu este o adevărată justiție acolo unde nu există
                   dreptate, iar dreptatea nu poate fi găsită acolo unde nu
                   există adevăr.&quot; - <span>Lucius Annaeus Seneca</span>
                 </Col>
-              </div>
+              </Col>
 
               {/* horizontal buttons */}
               <div
@@ -63,11 +66,11 @@ export default function Home() {
                 <div className="col flex-grow-1">
                   <Link href="/contact">
                     <Button
-                      className={`${styles.butt} btn btn-outline-dark btn-lg  type-button p-4 w-100`}
+                      className={`${styles.butt} btn btn-outline-dark btn-lg type-button p-4 w-100`}
                       aria-label="Programare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCalendarCheck} size="2x" />
+                        <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
                       </span>
                       Programare
                     </Button>
@@ -80,7 +83,7 @@ export default function Home() {
                       aria-label="Cere o evaluare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faFileCircleCheck} size="2x" />
+                        <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
                       </span>
                       Cere o evaluare
                     </Button>
@@ -93,7 +96,7 @@ export default function Home() {
                       aria-label="Onorarii"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCommentsDollar} size="2x" />
+                        <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
                       </span>
                       Onorarii
                     </Button>
@@ -146,15 +149,22 @@ export default function Home() {
         {/* INTRO======== */}
         <Container fluid className="py-5 px-lg-5 my-lg-2">
           <Row>
-            <Col md={7} xs={12}>
+            <Col lg={7}>
               <div className="card-body">
                 <h1
-                  className={`${styles.main_titles} pt-md-0 text-center pb-4 fs-3 mx-auto lh-base`}
+                  className={`${styles.main_titles} pt-md-0 text-center pb-4 fs-2 mx-auto lh-base`}
                 >
                   Va confruntați cu o problemă juridică sau de insolvență?
                 </h1>
 
-                <div className={`${styles.text_separator}`}>
+                <div>
+                  <Image
+                    src="/assets/law-justice.webp"
+                    alt="Un ciocan, balanța dreptății și cărți de lege"
+                    className="img-fluid d-none d-lg-none d-md-block  float-md-end ms-md-3"
+                    width={300}
+                    height={200}
+                  />
                   <p className={`${styles.text} px-3 pb-4`}>
                     <span className={`${styles.first_letter} ps-2`}>C</span>
                     abinetul nostru de Avocatură Insolvență, condus de Alina
@@ -180,7 +190,7 @@ export default function Home() {
               <Image
                 src="/assets/law-justice.webp"
                 alt="a gavel, scales of justice, and law books"
-                className="img-fluid d-block pb-4"
+                className="img-fluid pb-4 d-lg-block d-md-none"
                 width={500}
                 height={300}
               />
@@ -197,7 +207,7 @@ export default function Home() {
                 className={`${styles.services_content} flex-column d-flex justify-content-center align-items-center mt-3`}
               >
                 <h1
-                  className={`${styles.services_title} lh-base text-center pb-3 pt-4 fs-3`}
+                  className={`${styles.services_title} lh-base text-center pb-2 pt-4 fs-2`}
                 >
                   Domenii de activitate
                 </h1>
@@ -210,10 +220,9 @@ export default function Home() {
                       <Image
                         src="/assets/barou.webp"
                         className="mx-auto d-block pb-4"
-                        alt="sigla barou Bucuresti"
+                        alt="Sigla Barou Bucuresti"
                         width={200}
                         height={200}
-                        fetchpriority="high"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-lg-5`}>
@@ -226,7 +235,7 @@ export default function Home() {
                       <Link href="/avocatura">
                         <Button
                           variant="outline-dark"
-                          className={`${styles.services_btn} mb-4`}
+                          className={`${styles.services_btn} mb-4 p-2 fs-5`}
                         >
                           Afla mai multe...
                         </Button>
@@ -240,10 +249,10 @@ export default function Home() {
                     <div className="d-flex align-items-center">
                       <Image
                         src="/assets/unpir.webp"
-                        className="mx-auto d-block mb-4"
-                        alt="sigla unpir"
+                        className="mx-auto d-block pb-4"
+                        alt="Sigla Unpir"
                         width={200}
-                        height={170}
+                        height={200}
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-2 px-lg-5`}>
@@ -257,7 +266,7 @@ export default function Home() {
                       <Link href="/insolventa">
                         <Button
                           variant="outline-dark"
-                          className={`${styles.services_btn} mb-4`}
+                          className={`${styles.services_btn} mb-4 p-2 fs-5`}
                         >
                           Afla mai multe...
                         </Button>
@@ -273,19 +282,19 @@ export default function Home() {
         {/* CINE SUNTEM======== */}
         <Container fluid className="px-lg-5 my-lg-2">
           <Row>
-            <Col xs={12} lg={7}>
+            <Col lg={7}>
               <div className="card-body">
                 <h1
-                  className={`${styles.main_titles} text-center pb-4 fs-3 mx-auto`}
+                  className={`${styles.main_titles} text-center pb-4 fs-2 mx-auto`}
                 >
                   Cine suntem?
                 </h1>
 
-                <div className={`${styles.text_separator}`}>
+                <div>
                   <Image
                     src="/assets/about-us.webp"
                     className="img-fluid d-none d-lg-none d-md-block  float-md-end ms-md-3"
-                    alt="two persons at a desk"
+                    alt="Doua persoane la birou"
                     width={300}
                     height={200}
                   />
@@ -320,7 +329,7 @@ export default function Home() {
               <Image
                 src="/assets/about-us.webp"
                 className="img-fluid d-lg-block d-md-none"
-                alt="two persons at a desk"
+                alt="Doua persoane la birou"
                 width={500}
                 height={300}
               />
@@ -329,10 +338,10 @@ export default function Home() {
         </Container>
 
         {/*CE NE RECOMANDA========= */}
-        <Container className={`${styles.recommendation} py-5`}>
+        <Container className={`${styles.recommendation} py-4`}>
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h1
-              className={`${styles.main_titles} text-center pb-2 pb-lg-4 fs-3 mx-auto`}
+              className={`${styles.main_titles} text-center pb-2 pb-lg-4 fs-2 mx-auto`}
             >
               Ce ne recomanda?
             </h1>

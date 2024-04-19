@@ -21,8 +21,8 @@
 }
 
 .avocatura .body {
-  background-color: #072e53;
-  border-bottom: 7px solid #c2b697;
+  background-color: var(--color-blue3);
+  border-bottom: 7px solid var(--color-beige2);
   color: var(--text-light);
 }
 
@@ -34,7 +34,7 @@
 }
 
 .law_icon {
-  color: #c2b697;
+  color: var(--color-beige2);
 }
 
 .civil {

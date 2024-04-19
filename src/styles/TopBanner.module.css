@@ -2,7 +2,6 @@
 .banner {
   background-color: var(--color-beige2);
   color: var(--color-blue2);
-  
 }
 
 .phone_icon {
@@ -52,5 +51,11 @@
 
   100% {
     transform: scale(1) rotate(0deg);
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    background-color: var(--color-blue3);
+    color: var(--color-beige3);
   }
 }

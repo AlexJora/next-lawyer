@@ -1,23 +1,17 @@
 /* NAVBAR====================== */
-/* .nav {
-  font-size: 2rem;
-  font-weight: 500;
-} */
-
-/* .nav .logo_image {
-  max-width: 70px;
-  height: auto;
-} */
 
 .nav .logo_text {
-  /* max-width: 200px;
-  height: auto; */
   margin-left: -1.5rem;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-white);
+}
+@media (min-width: 768px) {
+  .link {
+    font-size: 1.2rem;
+  }
 }
 .active {
   color: var(--color-beige2);

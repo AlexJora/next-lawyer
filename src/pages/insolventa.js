@@ -18,16 +18,15 @@ const Insolventa = () => {
           content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
         />
       </Head>
-      <Container fluid className={styles.insolvancy_page}>
+      <Container fluid className={styles.insolvency_page}>
         <Row>
-          <Col className="px-0">
+          <Col className={styles.img_wrapper}>
             <Image
               src="/assets/insolvency.webp"
               alt="insolvency banner"
               className={`${styles.img_top}`}
               sizes="100vw"
-              width={0}
-              height={0}
+              fill
             />
           </Col>
         </Row>
@@ -37,7 +36,7 @@ const Insolventa = () => {
             <h1
               className={`${styles.main_titles} lh-base text-center pt-5 pb-2 fs-2 px-2`}
             >
-              Servicii de consultanță și reprezentare în insolvență
+              Servicii de insolvență
             </h1>
             <h5 className={`${styles.subtitle} lh-base text-center px-3 pb-5`}>
               Oferim asistență specializată în procedurile de insolvență, de la
@@ -49,7 +48,9 @@ const Insolventa = () => {
           <Col>
             <Card className={styles.card}>
               <Card.Body>
-                <div className={`${styles.card_text} pe-1 pe-md-3 pt-4`}>
+                <div
+                  className={`${styles.card_text} pe-1 px-lg-5 px-md-3 pt-4`}
+                >
                   <ul className={`${styles.insolvency_list} pt-3`}>
                     <li>Lichidare judiciara / procedura falimentului;</li>
                     <br></br>
@@ -124,7 +125,7 @@ const Insolventa = () => {
                   <div className="py-5">
                     <Link href="/contact" className={styles.link}>
                       <Button
-                        className={`${styles.insolvency_button} mx-auto px-3 py-2 w-50`}
+                        className={`${styles.insolvency_button} mx-auto px-md-3 py-md-3 fs-6  py-3 w-50`}
                         type="button"
                         variant="outline-dark"
                         aria-label="Cere o evaluare"

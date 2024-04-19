@@ -24,7 +24,7 @@ export const Contact = () => {
         />
       </Head>
       <div className={styles.contact_page}>
-        <h1 className={`${styles.main_titles} text-center pt-4 fs-4 pb-lg-4`}>
+        <h1 className={`${styles.main_titles} text-center pt-5 fs-4 pb-lg-4`}>
           Contact
         </h1>
         <section>

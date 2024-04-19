@@ -2,7 +2,7 @@ import TopBanner from "../components/TopBanner";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-const config = { activeClass: "active" };
+// const config = { activeClass: "active" };
 import styles from "../styles/Navbar.module.css";
 const Navbar = () => {
   const pathname = usePathname();
@@ -52,8 +52,8 @@ const Navbar = () => {
               className="collapse navbar-collapse justify-content-end align-center"
               id="main-nav"
             >
-              <ul className="navbar-nav me-5 me-md-2">
-                <li className="nav-item mx-3 mb-2">
+              <ul className="navbar-nav me-5 me-md-2 pt-4">
+                <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/"
                     className={`${styles.link} ${
@@ -63,7 +63,7 @@ const Navbar = () => {
                     Acasa
                   </Link>
                 </li>
-                <li className="nav-item mx-3 mb-2">
+                <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/avocatura"
                     className={`${styles.link} ${
@@ -73,7 +73,7 @@ const Navbar = () => {
                     Avocatura
                   </Link>
                 </li>
-                <li className="nav-item mx-3 mb-2">
+                <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/insolventa"
                     className={`${styles.link} ${
@@ -83,7 +83,7 @@ const Navbar = () => {
                     Insolventa
                   </Link>
                 </li>
-                <li className="nav-item mx-3 mb-2">
+                <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/informatii-utile"
                     className={`${styles.link} ${
@@ -93,7 +93,7 @@ const Navbar = () => {
                     Informatii utile
                   </Link>
                 </li>
-                <li className="nav-item mx-3 mb-2">
+                <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/contact"
                     className={`${styles.link} ${
