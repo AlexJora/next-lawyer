@@ -23,7 +23,7 @@ const Insolventa = () => {
           <Col className={styles.img_wrapper}>
             <Image
               src="/assets/insolvency.webp"
-              alt="insolvency banner"
+              alt="Panou cu insolventa - nou inceput"
               className={`${styles.img_top}`}
               sizes="100vw"
               fill
