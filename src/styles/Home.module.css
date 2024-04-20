@@ -10,7 +10,7 @@
 }
 .hero_section {
   position: relative;
-  height: 450px;
+  height: 500px;
 }
 
 @media (min-width: 768px) {
@@ -45,7 +45,7 @@
 .hero_content {
   position: relative;
   z-index: 1;
-  margin-top: 3rem;
+  margin-top: 7rem;
   margin-left: 2rem;
   opacity: 0;
   transform: translateX(-100%);
@@ -99,7 +99,6 @@
   z-index: 1;
 }
 
-
 .horizontal_buttons .butt {
   background-color: var(--color-beige2);
   color: var(--color-blue2);
@@ -122,7 +121,6 @@
 }
 
 /* end buttons===== */
-
 
 .first_letter {
   font-size: 1.8em;
