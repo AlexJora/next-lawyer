@@ -52,7 +52,7 @@ const Navbar = () => {
               className="collapse navbar-collapse justify-content-end align-center"
               id="main-nav"
             >
-              <ul className="navbar-nav me-5 me-md-2 pt-4">
+              <ul className="navbar-nav me-5 pe-2 me-md-2 pt-4">
                 <li className="nav-item mx-3 pb-4 fs-4">
                   <Link
                     href="/"

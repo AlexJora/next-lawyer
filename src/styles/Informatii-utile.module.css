@@ -9,7 +9,6 @@
 .accordion_item .accordion_header button {
   background-color: var(--color-beige2);
   color: var(--color-blue3);
-  font-size: 1.3rem;
 }
 
 .title {
@@ -18,5 +17,4 @@
 .body {
   background-color: var(--color-blue3);
   color: var(--text-light);
-  font-size: 1rem;
 }

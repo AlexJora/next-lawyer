@@ -25,6 +25,7 @@
 }
 .img_top {
   object-fit: cover;
+  object-position: center;
 }
 
 .card_text {
