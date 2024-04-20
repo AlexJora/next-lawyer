@@ -106,48 +106,43 @@ export default function Home() {
             </div>
 
             {/* small screens buttons*/}
-            <div
-              className={`${styles.mobile_buttons} d-md-none d-flex justify-content-between pt-2`}
-            >
-              <Link href="/contact">
-                <Button
-                  className={`${styles.butt} btn btn-outline-dark type-button p-2 mb-1 btn-md me-1`}
-                  aria-label="Programare"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faCalendarCheck} />
-                  </span>
-                  Programare
-                </Button>
-              </Link>
-              <Link href="/contact">
-                <Button
-                  className={`${styles.butt} btn btn-outline-dark type-button p-2 mb-1 btn-md me-1`}
-                  aria-label="Cere o evaluare"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faFileCircleCheck} />
-                  </span>
-                  Cere o evaluare
-                </Button>
-              </Link>
-              <Link href="/informatii-utile">
-                <Button
-                  className={`${styles.butt} btn btn-outline-dark type-button p-2 btn-md`}
-                  aria-label="Onorarii"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faCommentsDollar} />
-                  </span>
-                  Onorarii
-                </Button>
-              </Link>
-            </div>
+            <Row className={`${styles.mobile_buttons} d-md-none g-0`}>
+              <Col xs={6} className="px-0">
+                <Link href="/contact">
+                  <Button
+                    className={`${styles.butt} btn btn-outline-dark type-button p-2 mb-1 btn-md me-1 w-100`}
+                    aria-label="Programare"
+                  >
+                    <div className="d-flex flex-column align-items-center fs-6">
+                      <span className="p-1">
+                        <FontAwesomeIcon icon={faCalendarCheck} size="2x" />
+                      </span>
+                      Programare
+                    </div>
+                  </Button>
+                </Link>
+              </Col>
+              <Col xs={6} className="px-0">
+                <Link href="/contact">
+                  <Button
+                    className={`${styles.butt} btn btn-outline-dark type-button p-2 mb-1 btn-md me-1 w-100`}
+                    aria-label="Cere o evaluare"
+                  >
+                    <div className="d-flex flex-column align-items-center">
+                      <span className="p-1">
+                        <FontAwesomeIcon icon={faFileCircleCheck} size="2x" />
+                      </span>
+                      Cere o evaluare
+                    </div>
+                  </Button>
+                </Link>
+              </Col>
+            </Row>
           </Row>
         </Container>
 
         {/* INTRO======== */}
-        <Container fluid className="py-5 px-lg-5 my-lg-2">
+        <Container fluid className="py-4 px-lg-5 my-lg-2">
           <Row>
             <Col lg={7}>
               <div className="card-body">
