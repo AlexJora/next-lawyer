@@ -43,12 +43,12 @@ export default function Home() {
               <Col
                 className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <div className={`${styles.text_1} fs-3 pb-3 pt-lg-5 mt-lg-3`}>
+                <div className={`${styles.text_1} fs-3 pb-3 pt-lg-2`}>
                   ALINA MARIN
                 </div>
                 <div className={`${styles.text_2} fs-5`}>
                   BIROU DE AVOCATURA SI INSOLVENTA
-                  <span className="fw-bold">
+                  <span className="fw-bold fs-4">
                     <br></br> Bucuresti{" "}
                   </span>
                 </div>

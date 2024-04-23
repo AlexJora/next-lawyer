@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "@/styles/Contact.module.css";
@@ -15,9 +17,14 @@ const ContactForm = () => {
       phone,
       message: query,
     };
-    const serviceID = process.env.REACT_APP_SERVICE_ID;
-    const templateID = process.env.REACT_APP_TEMPLATE_ID;
-    const userID = process.env.REACT_APP_USER_ID;
+    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const userID = process.env.NEXT_PUBLIC_USER_ID;
+    console.log("Params:", params); // Log the params object before sending the email
+
+    console.log("Service ID:", serviceID);
+    console.log("Template ID:", templateID);
+    console.log("User ID:", userID);
 
     emailjs.send(serviceID, templateID, params, userID).then(
       (response) => {
@@ -42,6 +49,10 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Se trimite...");
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Phone:", phone);
+    console.log("Query:", query);
 
     sendMail();
   };

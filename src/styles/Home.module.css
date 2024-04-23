@@ -70,13 +70,13 @@
 
 .text_3 {
   color: var(--color-beige3);
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   padding-top: 3rem;
   line-height: 1.8rem;
 }
 
 .text_3 span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 @keyframes slideLeft {
@@ -205,12 +205,9 @@
 }
 
 .square {
-  background-color: var(--color-bronze);
+  background-color: var(--color-blue2);
   color: var(--text-light);
   height: 12rem;
   margin-top: -3rem;
   border: 5px solid var(--color-beige2);
-}
-.square:hover {
-  background-color: var(--color-blue2);
 }
