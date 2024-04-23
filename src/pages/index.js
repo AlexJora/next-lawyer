@@ -70,7 +70,7 @@ export default function Home() {
                       aria-label="Programare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
+                        <FontAwesomeIcon icon={faCalendarCheck} size="2x" />
                       </span>
                       Programare
                     </Button>
@@ -83,7 +83,7 @@ export default function Home() {
                       aria-label="Cere o evaluare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
+                        <FontAwesomeIcon icon={faFileCircleCheck} size="2x" />
                       </span>
                       Cere o evaluare
                     </Button>
@@ -96,7 +96,7 @@ export default function Home() {
                       aria-label="Onorarii"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
+                        <FontAwesomeIcon icon={faCommentsDollar} size="2x" />
                       </span>
                       Onorarii
                     </Button>
@@ -147,7 +147,7 @@ export default function Home() {
             <Col lg={7}>
               <div className="card-body">
                 <h1
-                  className={`${styles.main_titles} pt-md-0 text-center pb-4 fs-2 mx-auto lh-base`}
+                  className={`${styles.main_titles} text-center pb-4 fs-2 mx-auto lh-base px-md-5 pt-2`}
                 >
                   Va confruntați cu o problemă juridică sau de insolvență?
                 </h1>
@@ -218,6 +218,7 @@ export default function Home() {
                         alt="Sigla Barou Bucuresti"
                         width={200}
                         height={200}
+                        layout="intrinsic"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-lg-5`}>
@@ -248,6 +249,7 @@ export default function Home() {
                         alt="Sigla Unpir"
                         width={200}
                         height={200}
+                        layout="intrinsic"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-2 px-lg-5`}>
@@ -257,7 +259,7 @@ export default function Home() {
                       administrativă, recuperări creanțe, evaluare și
                       valorificare active.
                     </p>
-                    <div className="py-3 text-center">
+                    <div className="py-5 text-center">
                       <Link href="/insolventa">
                         <Button
                           variant="outline-dark"
@@ -333,7 +335,7 @@ export default function Home() {
         </Container>
 
         {/*CE NE RECOMANDA========= */}
-        <Container className={`${styles.recommendation} py-5`}>
+        <Container className={`${styles.recommendation} py-2 pt-lg-4`}>
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h1
               className={`${styles.main_titles} text-center pb-2 pb-lg-4 fs-2 mx-auto`}
