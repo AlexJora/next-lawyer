@@ -97,7 +97,7 @@ export const Contact = () => {
           </div>
           {/* contact form and text============ */}
           <div className="container-lg">
-            <div className="row g-5">
+            <div className="row g-5 py-5">
               <div className="col-sm-6 order-sm-first ">
                 <div className="contact-text d-flex flex-column ">
                   <h5 className="lh-base text-center pb-4 mt-md-5 pt-5">

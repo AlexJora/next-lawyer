@@ -2,7 +2,6 @@ import TopBanner from "../components/TopBanner";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-// const config = { activeClass: "active" };
 import styles from "../styles/Navbar.module.css";
 const Navbar = () => {
   const pathname = usePathname();
@@ -52,55 +51,55 @@ const Navbar = () => {
               className="collapse navbar-collapse justify-content-end align-center"
               id="main-nav"
             >
-              <ul className="navbar-nav me-5 pe-2 me-md-2 pt-4">
-                <li className="nav-item mx-3 pb-4 fs-4">
+              <ul className="navbar-nav me-5 pe-2 pt-4">
+                <li className="nav-item mx-3 pb-4 fw-bolder">
                   <Link
                     href="/"
                     className={`${styles.link} ${
                       pathname === "/" ? styles.active : ""
                     }`}
                   >
-                    Acasa
+                    ACASA
                   </Link>
                 </li>
-                <li className="nav-item mx-3 pb-4 fs-4">
+                <li className="nav-item mx-3 pb-4 fw-bold">
                   <Link
                     href="/avocatura"
                     className={`${styles.link} ${
                       pathname === "/avocatura" ? styles.active : ""
                     }`}
                   >
-                    Avocatura
+                    AVOCATURA
                   </Link>
                 </li>
-                <li className="nav-item mx-3 pb-4 fs-4">
+                <li className="nav-item mx-3 pb-4 fw-bold">
                   <Link
                     href="/insolventa"
                     className={`${styles.link} ${
                       pathname === "/insolventa" ? styles.active : ""
                     }`}
                   >
-                    Insolventa
+                    INSOLVENTA
                   </Link>
                 </li>
-                <li className="nav-item mx-3 pb-4 fs-4">
+                <li className="nav-item mx-3 pb-4 fw-bold">
                   <Link
                     href="/informatii-utile"
                     className={`${styles.link} ${
                       pathname === "/informatii-utile" ? styles.active : ""
                     }`}
                   >
-                    Informatii utile
+                    INFORMATII UTILE
                   </Link>
                 </li>
-                <li className="nav-item mx-3 pb-4 fs-4">
+                <li className="nav-item mx-3 pb-4 fw-bold">
                   <Link
                     href="/contact"
                     className={`${styles.link} ${
                       pathname === "/contact" ? styles.active : ""
                     }`}
                   >
-                    Contact
+                    CONTACT
                   </Link>
                 </li>
               </ul>

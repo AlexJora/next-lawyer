@@ -335,7 +335,7 @@ export default function Home() {
         </Container>
 
         {/*CE NE RECOMANDA========= */}
-        <Container className={`${styles.recommendation} py-2 pt-lg-4`}>
+        <Container className={`${styles.recommendation} py-5 pt-lg-4`}>
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h1
               className={`${styles.main_titles} text-center pb-2 pb-lg-4 fs-2 mx-auto`}
