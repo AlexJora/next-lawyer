@@ -1,20 +1,15 @@
 import styles from "@/styles/Informatii-utile.module.css";
-import Head from "next/head";
+import CustomHead from "../components/CustomHead";
 import Accordion from "react-bootstrap/Accordion";
 const info = () => {
   return (
     <>
-      <Head>
-        <title>
-          Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin
-        </title>
-        <meta
-          name="description"
-          content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.PNG" />
-      </Head>
+      <CustomHead
+        pageSlug="/informatii-utile"
+        title="Informatii utile | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
+        content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+      />
+
       <div className={styles.info}>
         <h1 className={`${styles.main_titles} text-center pt-5 fs-2 pb-lg-3`}>
           Informatii utile

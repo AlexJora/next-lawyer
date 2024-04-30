@@ -1,5 +1,5 @@
 import styles from "@/styles/Insolventa.module.css";
-import Head from "next/head";
+import CustomHead from "../components/CustomHead";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
@@ -7,17 +7,11 @@ import { Container, Card, Button, Row, Col } from "react-bootstrap";
 const Insolventa = () => {
   return (
     <>
-      <Head>
-        <title>
-          Servicii de Insolventa | Avocat Bucuresti | Cabinet de avocat si
-          insolventa Alina Marin
-        </title>
-        <link rel="canonical" href="https://alinamarin.ro/insolventa" />
-        <meta
-          name="description"
-          content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
-        />
-      </Head>
+      <CustomHead
+        pageSlug="/insolventa"
+        title="Insolventa | Cabinet de avocat si insolventa Alina Marin - Bucuresti "
+        content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
+      />
       <Container fluid className={styles.insolvency_page}>
         <Row>
           <Col className={styles.img_wrapper}>

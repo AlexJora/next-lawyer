@@ -1,5 +1,5 @@
 import styles from "@/styles/Contact.module.css";
-import Head from "next/head";
+import CustomHead from "../components/CustomHead";
 import ContactForm from "../components/ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,17 +12,11 @@ import {
 export const Contact = () => {
   return (
     <>
-      <Head>
-        <title>
-          Contact | Avocat Bucuresti | Cabinet de avocat si insolventa Alina
-          Marin
-        </title>
-        <link rel="canonical" href="https://alinamarin.ro/contact" />
-        <meta
-          name="description"
-          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
-        />
-      </Head>
+      <CustomHead
+        pageSlug="/contact"
+        title=" Contact | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
+        content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
+      />
       <div className={styles.contact_page}>
         <h1 className={`${styles.main_titles} text-center pt-5 fs-2 pb-lg-4`}>
           Contact

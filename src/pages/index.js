@@ -1,5 +1,6 @@
 import styles from "@/styles/Home.module.css";
-import Head from "next/head";
+import CustomHead from "../components/CustomHead";
+// import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col, Button } from "react-bootstrap";
@@ -14,17 +15,11 @@ import {
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin
-        </title>
-        <meta
-          name="description"
-          content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.PNG" />
-      </Head>
+      <CustomHead
+        pageSlug="/"
+        title=" Acasa | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
+        content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+      />
 
       <main className={styles.home_page}>
         {/* HERO=========== */}
