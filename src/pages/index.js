@@ -29,8 +29,6 @@ export default function Home() {
                 src="/assets/hero.webp"
                 alt="Imaginea Justiției cu balanța dreptății"
                 className={styles.hero_img}
-                objectFit="cover"
-                objectPosition="center"
                 priority
                 fill
               />
