@@ -9,8 +9,15 @@
   object-position: center;
 }
 .hero_section {
+  display: flex;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  align-self: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero_section {
+    height: 50vh;
+  }
 }
 
 .hero_overlay {
