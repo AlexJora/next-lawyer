@@ -10,28 +10,9 @@
 }
 .hero_section {
   position: relative;
-  height: 500px;
+  min-height: 100vh;
 }
 
-@media (min-width: 768px) {
-  .hero_section {
-    height: 50vh;
-  }
-  .text_1 {
-    font-size: 2.3rem !important;
-  }
-  .text_2 {
-    font-size: 1.8rem !important;
-  }
-  .text_3 {
-    padding-top: 5rem !important;
-  }
-}
-@media (min-width: 992px) {
-  .hero_section {
-    height: 100vh;
-  }
-}
 .hero_overlay {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
