@@ -31,3 +31,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.poppins {
+  font-family: var(--font-poppins);
+}
+.marmelad {
+  font-family: var(--font-marmelad);
+}

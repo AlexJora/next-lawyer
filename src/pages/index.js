@@ -137,7 +137,7 @@ export default function Home() {
         </Container>
 
         {/* INTRO======== */}
-        <Container fluid className="py-4 px-lg-5 my-lg-2">
+        <Container fluid className="poppins py-4 px-lg-5 my-lg-2">
           <Row>
             <Col lg={7}>
               <div className="card-body">
@@ -213,7 +213,7 @@ export default function Home() {
                         alt="Sigla Barou Bucuresti"
                         width={200}
                         height={200}
-                        layout="intrinsic"
+                        // layout="intrinsic"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-lg-5`}>
@@ -244,7 +244,7 @@ export default function Home() {
                         alt="Sigla Unpir"
                         width={200}
                         height={200}
-                        layout="intrinsic"
+                        // layout="intrinsic"
                       />
                     </div>
                     <p className={`${styles.services_text} pt-4 px-2 px-lg-5`}>
