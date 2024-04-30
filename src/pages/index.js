@@ -1,6 +1,5 @@
 import styles from "@/styles/Home.module.css";
 import CustomHead from "../components/CustomHead";
-// import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col, Button } from "react-bootstrap";
@@ -30,13 +29,14 @@ export default function Home() {
                 src="/assets/hero.webp"
                 alt="Imaginea Justiției cu balanța dreptății"
                 className={styles.hero_img}
-                sizes="100vw"
+                objectFit="cover"
+                objectPosition="center"
                 priority
                 fill
               />
               <div className={styles.hero_overlay}></div>
               <Col
-                className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
+                className={`${styles.hero_content} marmelad d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
                 <div className={`${styles.text_1} fs-3 pb-3 pt-lg-2`}>
                   ALINA MARIN
@@ -47,7 +47,10 @@ export default function Home() {
                     <br></br> Bucuresti{" "}
                   </span>
                 </div>
-                <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>
+                <Col
+                  md={5}
+                  className={`${styles.text_3} lato fst-italic fw-light`}
+                >
                   &quot;Nu este o adevărată justiție acolo unde nu există
                   dreptate, iar dreptatea nu poate fi găsită acolo unde nu
                   există adevăr.&quot; - <span>Lucius Annaeus Seneca</span>
@@ -137,7 +140,7 @@ export default function Home() {
         </Container>
 
         {/* INTRO======== */}
-        <Container fluid className="poppins py-4 px-lg-5 my-lg-2">
+        <Container fluid className="py-4 px-lg-5 my-lg-2">
           <Row>
             <Col lg={7}>
               <div className="card-body">
@@ -155,7 +158,7 @@ export default function Home() {
                     width={300}
                     height={200}
                   />
-                  <p className={`${styles.text} px-3 pb-4`}>
+                  <p className={`${styles.text} raleway px-3 pb-4`}>
                     <span className={`${styles.first_letter} ps-2`}>C</span>
                     abinetul nostru de Avocatură Insolvență, condus de Alina
                     Marin, oferă consultanță, asistență și reprezentare pentru
@@ -216,7 +219,9 @@ export default function Home() {
                         // layout="intrinsic"
                       />
                     </div>
-                    <p className={`${styles.services_text} pt-4 px-lg-5`}>
+                    <p
+                      className={`${styles.services_text} raleway pt-4 px-lg-5`}
+                    >
                       Asistență și reprezentare juridică în domenii de drept
                       comercial, înființări societăți, drept civil, dreptul
                       muncii, dreptul familiei, procedura insolvenței,
@@ -247,7 +252,9 @@ export default function Home() {
                         // layout="intrinsic"
                       />
                     </div>
-                    <p className={`${styles.services_text} pt-4 px-2 px-lg-5`}>
+                    <p
+                      className={`${styles.services_text} raleway pt-4 px-2 px-lg-5`}
+                    >
                       Servicii în etapa de preinsolvență, fuziuni și divizări
                       societăți comerciale, insolvență, restructurare și
                       reorganizare judiciară, faliment, lichidare judiciară și
@@ -291,7 +298,7 @@ export default function Home() {
                     height={200}
                   />
 
-                  <p className="px-3 pb-4">
+                  <p className="px-3 pb-4 raleway">
                     <span className={`${styles.first_letter} ps-2`}>V</span>om
                     fi partenerul dvs. în soluționarea într-un mod profesionist
                     a tuturor problemelor comerciale, fiscale, contractuale.
@@ -350,7 +357,7 @@ export default function Home() {
                 <div>ani de experiență</div>
               </div>
             </Col>
-            <Col lg={5} md={12} className="order-md-1 pb-3">
+            <Col lg={5} md={12} className="order-md-1 pb-3 raleway">
               <ul className={`${styles.home_list}`}>
                 <li>Experiență vastă în domeniu</li>
                 <li>

@@ -4,19 +4,16 @@
   background-color: var(--text-light);
 }
 
-.hero_img {
-  object-fit: cover;
-  object-position: center;
-}
 .hero_section {
   display: flex;
   position: relative;
+  width: 100vw;
   height: 100vh;
   align-self: center;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hero_section {
-    height: 50vh;
+    height: 60vh;
   }
 }
 
@@ -43,7 +40,6 @@
 .text_1,
 .text_2 {
   color: var(--color-white);
-  font-family: "Marmelad", sans-serif;
   letter-spacing: 0.1rem;
 }
 
