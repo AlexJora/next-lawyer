@@ -11,9 +11,7 @@ const info = () => {
       />
 
       <div className={styles.info}>
-        <h1 className={`${styles.main_titles} text-center pt-5 fs-2 pb-lg-3`}>
-          Informatii utile
-        </h1>
+        <h1 className="text-center pt-5 fs-2 pb-lg-3">Informatii utile</h1>
         <Accordion
           defaultActiveKey={["0"]}
           alwaysOpen

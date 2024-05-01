@@ -18,9 +18,7 @@ export const Contact = () => {
         content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
       />
       <div className={styles.contact_page}>
-        <h1 className={`${styles.main_titles} text-center pt-5 fs-2 pb-lg-4`}>
-          Contact
-        </h1>
+        <h1 className="text-center pt-5 fs-2 pb-lg-4">Contact</h1>
         <section>
           {/* contact info============ */}
           <div className="container-lg bg-light my-4 shadow">

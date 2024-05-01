@@ -28,15 +28,13 @@ const Insolventa = () => {
 
         <Row className="align-items-center justify-content-center">
           <Col>
-            <h1
-              className={`${styles.main_titles} lh-base text-center pt-5 pb-2 fs-2 px-2`}
-            >
+            <h1 className=" lh-base text-center pt-5 pb-2 fs-2 px-2">
               Servicii de insolvență
             </h1>
-            <h5 className={`${styles.subtitle} lh-base text-center px-3 pb-5`}>
+            <h4 className={`${styles.subtitle} lh-base text-center px-3 pb-5`}>
               Oferim asistență specializată în procedurile de insolvență, de la
               evaluarea opțiunilor disponibile și până la finalizarea procesului
-            </h5>
+            </h4>
           </Col>
         </Row>
         <Row className="justify-content-center">

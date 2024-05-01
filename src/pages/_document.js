@@ -12,7 +12,6 @@ export default function Document() {
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
         <meta property="og:locale" content="ro" />
-        <meta name="author" content="Catalina Alexandra Jora" />
         <meta property="og:image:width" content="920" />
         <meta property="og:image:height" content="470" />
         <meta name="twitter:card" content="summary_large_image" />

@@ -4,7 +4,6 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
 import { useEffect } from "react";
-
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function App({ Component, pageProps }) {
@@ -21,7 +20,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />

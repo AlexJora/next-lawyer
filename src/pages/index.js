@@ -20,7 +20,7 @@ export default function Home() {
         content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
       />
 
-      <main className={styles.home_page}>
+      <main className={`${styles.home_page}`}>
         {/* HERO=========== */}
         <Container fluid>
           <Row>
@@ -34,21 +34,18 @@ export default function Home() {
               />
               <div className={styles.hero_overlay}></div>
               <Col
-                className={`${styles.hero_content} marmelad d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
+                className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <div className={`${styles.text_1} fs-3 pb-3 pt-lg-2`}>
+                <div className={`${styles.text_1} fs-1 pb-3 pt-lg-2`}>
                   ALINA MARIN
                 </div>
-                <div className={`${styles.text_2} fs-5`}>
+                <div className={`${styles.text_2} fs-4`}>
                   BIROU DE AVOCATURA SI INSOLVENTA
                   <span className="fw-bold fs-4">
                     <br></br> Bucuresti{" "}
                   </span>
                 </div>
-                <Col
-                  md={5}
-                  className={`${styles.text_3} lato fst-italic fw-light`}
-                >
+                <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>
                   &quot;Nu este o adevărată justiție acolo unde nu există
                   dreptate, iar dreptatea nu poate fi găsită acolo unde nu
                   există adevăr.&quot; - <span>Lucius Annaeus Seneca</span>
@@ -66,7 +63,7 @@ export default function Home() {
                       aria-label="Programare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCalendarCheck} size="2x" />
+                        <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
                       </span>
                       Programare
                     </Button>
@@ -79,7 +76,7 @@ export default function Home() {
                       aria-label="Cere o evaluare"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faFileCircleCheck} size="2x" />
+                        <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
                       </span>
                       Cere o evaluare
                     </Button>
@@ -92,7 +89,7 @@ export default function Home() {
                       aria-label="Onorarii"
                     >
                       <span className="p-3">
-                        <FontAwesomeIcon icon={faCommentsDollar} size="2x" />
+                        <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
                       </span>
                       Onorarii
                     </Button>
@@ -142,9 +139,7 @@ export default function Home() {
           <Row>
             <Col lg={7}>
               <div className="card-body">
-                <h1
-                  className={`${styles.main_titles} text-center pb-4 fs-2 mx-auto lh-base px-md-5 pt-2`}
-                >
+                <h1 className="text-center pb-4 fs-2 mx-auto lh-base px-md-5 pt-2">
                   Va confruntați cu o problemă juridică sau de insolvență?
                 </h1>
 
@@ -156,7 +151,7 @@ export default function Home() {
                     width={300}
                     height={200}
                   />
-                  <p className={`${styles.text} raleway px-3 pb-4`}>
+                  <p className={`${styles.text} px-3 pb-4`}>
                     <span className={`${styles.first_letter} ps-2`}>C</span>
                     abinetul nostru de Avocatură Insolvență, condus de Alina
                     Marin, oferă consultanță, asistență și reprezentare pentru
@@ -204,9 +199,9 @@ export default function Home() {
                 </h1>
                 <Row className="mt-3 gx-3 flex-column flex-md-row">
                   <Col md={6}>
-                    <h5 className={`${styles.services_title} text-center pb-5`}>
+                    <h4 className={`${styles.services_title} text-center pb-5`}>
                       Cabinet de avocatură
-                    </h5>
+                    </h4>
                     <div className="d-flex align-items-center">
                       <Image
                         src="/assets/barou.webp"
@@ -217,9 +212,7 @@ export default function Home() {
                         // layout="intrinsic"
                       />
                     </div>
-                    <p
-                      className={`${styles.services_text} raleway pt-4 px-lg-5`}
-                    >
+                    <p className={`${styles.services_text} lh-lg pt-4 px-lg-5`}>
                       Asistență și reprezentare juridică în domenii de drept
                       comercial, înființări societăți, drept civil, dreptul
                       muncii, dreptul familiei, procedura insolvenței,
@@ -237,9 +230,9 @@ export default function Home() {
                     </div>
                   </Col>
                   <Col md={6}>
-                    <h5 className={`${styles.services_title} text-center pb-5`}>
+                    <h4 className={`${styles.services_title} text-center pb-5`}>
                       Cabinet de insolvență
-                    </h5>
+                    </h4>
                     <div className="d-flex align-items-center">
                       <Image
                         src="/assets/unpir.webp"
@@ -251,7 +244,7 @@ export default function Home() {
                       />
                     </div>
                     <p
-                      className={`${styles.services_text} raleway pt-4 px-2 px-lg-5`}
+                      className={`${styles.services_text} lh-lg pt-4 px-2 px-lg-5`}
                     >
                       Servicii în etapa de preinsolvență, fuziuni și divizări
                       societăți comerciale, insolvență, restructurare și

@@ -3,13 +3,7 @@
   overflow: hidden;
   background-color: var(--text-light);
 }
-.main_titles {
-  font-family: "Marmelad", sans-serif;
-  color: var(--text-titles);
-}
-.subtitle {
-  font-family: "Marmelad", sans-serif;
-}
+
 .avocatura .card {
   position: relative;
   overflow: hidden;

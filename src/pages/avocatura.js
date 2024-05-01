@@ -21,15 +21,13 @@ const Avocatura = () => {
       <main className={styles.avocatura}>
         <div>
           <div className="pt-2 text-center">
-            <h1
-              className={`${styles.main_titles} lh-base text-center pb-1 pb-2 pt-5 fs-2`}
-            >
+            <h1 className="lh-base text-center pb-1 pb-2 pt-5 fs-2">
               Servicii de avocatura
             </h1>
-            <h5 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
+            <h4 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
               Oferim consultanță juridică și asistență specializată într-o serie
               de arii de practică
-            </h5>
+            </h4>
           </div>
           <div className="row g-5 px-3 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
