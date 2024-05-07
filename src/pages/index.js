@@ -11,6 +11,11 @@ import {
   faGavel,
 } from "@fortawesome/free-solid-svg-icons";
 
+// import HeroDesktop from "../../public/assets/heroL.jpg";
+// import HeroMobile from "../../public/assets/heroS.jpg";
+// console.log("HeroDesktop:", HeroDesktop);
+// console.log("HeroMobile:", HeroMobile);
+
 export default function Home() {
   return (
     <>
@@ -25,24 +30,37 @@ export default function Home() {
         <Container fluid>
           <Row>
             <div className={`${styles.hero_section}`}>
-              <Image
-                src="/assets/hero.webp"
-                alt="Imaginea Justiției cu balanța dreptății"
-                className={styles.hero_img}
-                priority
-                fill
-              />
+              <picture>
+                <source
+                  // mobile
+                  media="(max-width: 768px)"
+                  srcSet="/assets/small-hero.webp"
+                />
+                <source
+                  // desktop
+                  media="(min-width: 769px)"
+                  srcSet="/assets/large-hero.webp"
+                />
+                <Image
+                  src="/assets/large-hero.webp"
+                  alt="Carti si justitia cu balanța dreptății"
+                  className={styles.hero_img}
+                  priority
+                  layout="fill"
+                />
+              </picture>
+
               <div className={styles.hero_overlay}></div>
               <Col
                 className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <div className={`${styles.text_1} fs-1 pb-3 pt-lg-2`}>
+                <div className={`${styles.text_1} pb-3 pt-lg-2`}>
                   ALINA MARIN
                 </div>
-                <div className={`${styles.text_2} fs-4`}>
+                <div className={`${styles.text_2} fs-3`}>
                   BIROU DE AVOCATURA SI INSOLVENTA
-                  <span className="fw-bold fs-4">
-                    <br></br> Bucuresti{" "}
+                  <span className="fw-bold fs-3">
+                    <br></br> Bucuresti
                   </span>
                 </div>
                 <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>
@@ -51,51 +69,6 @@ export default function Home() {
                   există adevăr.&quot; - <span>Lucius Annaeus Seneca</span>
                 </Col>
               </Col>
-
-              {/* horizontal buttons */}
-              <div
-                className={`${styles.horizontal_buttons} d-none d-md-flex justify-content-center align-items-end w-100 h-100`}
-              >
-                <div className="col flex-grow-1">
-                  <Link href="/contact">
-                    <Button
-                      className={`${styles.butt} btn btn-outline-dark btn-lg type-button p-4 w-100`}
-                      aria-label="Programare"
-                    >
-                      <span className="p-3">
-                        <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
-                      </span>
-                      Programare
-                    </Button>
-                  </Link>
-                </div>
-                <div className="col flex-grow-1">
-                  <Link href="/contact">
-                    <Button
-                      className={`${styles.butt} btn btn-lg btn-outline-dark type-button p-4 w-100`}
-                      aria-label="Cere o evaluare"
-                    >
-                      <span className="p-3">
-                        <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
-                      </span>
-                      Cere o evaluare
-                    </Button>
-                  </Link>
-                </div>
-                <div className="col flex-grow-1">
-                  <Link href="/informatii-utile">
-                    <Button
-                      className={`${styles.butt} btn btn-lg btn-outline-dark type-button p-4 w-100`}
-                      aria-label="Onorarii"
-                    >
-                      <span className="p-3">
-                        <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
-                      </span>
-                      Onorarii
-                    </Button>
-                  </Link>
-                </div>
-              </div>
             </div>
 
             {/* small screens buttons*/}
@@ -127,6 +100,50 @@ export default function Home() {
                       </span>
                       Cere o evaluare
                     </div>
+                  </Button>
+                </Link>
+              </Col>
+            </Row>
+            {/* horizontal buttons */}
+            <Row
+              className={`${styles.horizontal_buttons} d-none d-md-flex justify-content-center align-items-end w-100 h-100 g-0`}
+            >
+              <Col className="flex-grow-1">
+                <Link href="/contact">
+                  <Button
+                    className={`${styles.butt} btn btn-outline-dark btn-lg type-button p-4 w-100`}
+                    aria-label="Programare"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
+                    </span>
+                    Programare
+                  </Button>
+                </Link>
+              </Col>
+              <Col className="flex-grow-1">
+                <Link href="/contact">
+                  <Button
+                    className={`${styles.butt} btn btn-lg btn-outline-dark type-button p-4 w-100`}
+                    aria-label="Cere o evaluare"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
+                    </span>
+                    Cere o evaluare
+                  </Button>
+                </Link>
+              </Col>
+              <Col className="flex-grow-1">
+                <Link href="/informatii-utile">
+                  <Button
+                    className={`${styles.butt} btn btn-lg btn-outline-dark type-button p-4 w-100`}
+                    aria-label="Onorarii"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
+                    </span>
+                    Onorarii
                   </Button>
                 </Link>
               </Col>
