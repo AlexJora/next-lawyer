@@ -11,11 +11,6 @@ import {
   faGavel,
 } from "@fortawesome/free-solid-svg-icons";
 
-// import HeroDesktop from "../../public/assets/heroL.jpg";
-// import HeroMobile from "../../public/assets/heroS.jpg";
-// console.log("HeroDesktop:", HeroDesktop);
-// console.log("HeroMobile:", HeroMobile);
-
 export default function Home() {
   return (
     <>
@@ -60,7 +55,8 @@ export default function Home() {
                 <div className={`${styles.text_2} fs-3`}>
                   BIROU DE AVOCATURA SI INSOLVENTA
                   <span className="fw-bold fs-3">
-                    <br></br> Bucuresti
+                    <br></br>
+                    Bucuresti
                   </span>
                 </div>
                 <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>

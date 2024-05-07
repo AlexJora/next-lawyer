@@ -22,8 +22,9 @@
 .hero_overlay {
   background: linear-gradient(
     to right,
-    rgba(194, 182, 151, 0.8) 0%,
-    rgba(194, 182, 151, 0) 100%
+    rgba(2, 24, 43, 0.7) 0%,
+    rgba(2, 24, 43, 0.3) 90%,
+    rgba(2, 24, 43, 0) 100%
   );
   position: absolute;
   top: 0;
@@ -36,7 +37,8 @@
   .hero_overlay {
     background: linear-gradient(
       to right,
-      rgba(2, 24, 43, 0.8) 0%,
+      rgba(2, 24, 43, 0.9) 0%,
+      rgba(2, 24, 43, 0.4) 90%,
       rgba(2, 24, 43, 0) 100%
     );
   }
@@ -52,7 +54,7 @@
   animation: slideLeft 1s forwards;
 }
 .text_1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .text_1,
 .text_2 {
