@@ -41,7 +41,7 @@ export default function Home() {
                   alt="Carti si justitia cu balanța dreptății"
                   className={styles.hero_img}
                   priority
-                  layout="fill"
+                  fill
                 />
               </picture>
 
