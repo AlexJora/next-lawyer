@@ -16,8 +16,8 @@ export default function Home() {
     <>
       <CustomHead
         pageSlug="/"
-        title=" Acasa | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
-        content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+        title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
+        content="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
       />
 
       <main className={`${styles.home_page}`}>
