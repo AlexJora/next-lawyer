@@ -49,16 +49,16 @@ export default function Home() {
               <Col
                 className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <div className={`${styles.text_1} pb-3 pt-lg-2`}>
+                <h1 className={`${styles.text_1} pb-3 pt-lg-2`}>
                   ALINA MARIN
-                </div>
-                <div className={`${styles.text_2} fs-3`}>
-                  BIROU DE AVOCATURA SI INSOLVENTA
+                </h1>
+                <h1 className={`${styles.text_2} fs-3`}>
+                  BIROU DE AVOCAT SI INSOLVENTA
                   <span className="fw-bold fs-3">
                     <br></br>
                     Bucuresti
                   </span>
-                </div>
+                </h1>
                 <Col md={5} className={`${styles.text_3} fst-italic fw-light`}>
                   &quot;Nu este o adevărată justiție acolo unde nu există
                   dreptate, iar dreptatea nu poate fi găsită acolo unde nu
@@ -166,7 +166,7 @@ export default function Home() {
                   />
                   <p className={`${styles.text} px-3 pb-4`}>
                     <span className={`${styles.first_letter} ps-2`}>C</span>
-                    abinetul nostru de Avocatură Insolvență, condus de Alina
+                    abinetul nostru de Avocat si Insolvență, condus de Alina
                     Marin, oferă consultanță, asistență și reprezentare pentru
                     probleme juridice sau de insolvență și recuperare de creanțe
                     în fața instanțelor și autorităților publice.

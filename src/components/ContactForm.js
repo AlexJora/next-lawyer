@@ -20,15 +20,9 @@ const ContactForm = () => {
     const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const userID = process.env.NEXT_PUBLIC_USER_ID;
-    console.log("Params:", params); // Log the params object before sending the email
-
-    console.log("Service ID:", serviceID);
-    console.log("Template ID:", templateID);
-    console.log("User ID:", userID);
 
     emailjs.send(serviceID, templateID, params, userID).then(
       (response) => {
-        console.log("SUCCESS!", response.status, response.text);
         setStatus("Trimite mesaj");
         alert("Mesajul tău a fost trimis cu succes!");
 
@@ -39,7 +33,6 @@ const ContactForm = () => {
         setQuery("");
       },
       (error) => {
-        console.log("FAILED...", error);
         setStatus("Trimite mesaj");
         alert("Ceva nu a mers bine. Încearcă din nou mai târziu.");
       }
@@ -49,11 +42,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Se trimite...");
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Phone:", phone);
-    console.log("Query:", query);
-
     sendMail();
   };
 
