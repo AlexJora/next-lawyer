@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lawyer Legal and Insolvency Services Next.js App
+
+## Project Description
+
+This project is a Next.js-based front-end application developed for a lawyer specializing in legal and insolvency services. The application consists of five pages, providing users with information about the services offered, contact details, and more.
+
+## Technologies Used
+
+### Frontend
+- **Next.js**: A React framework for building server-side rendered and statically generated web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **React DOM**: Provides DOM-specific methods that can be used at the top level of a web app.
+- **Bootstrap 5**: A CSS framework for building responsive, mobile-first websites.
+- **React Bootstrap**: Bootstrap components built with React.
+- **CSS**: Custom CSS for additional styling and customization.
+- **Font Awesome**: Icon library for adding icons.
+- **EmailJS**: A library for sending emails directly from JavaScript.
+
+  
+## Features
+
+- **Homepage**: An overview of the lawyer’s services and expertise. Information about the lawyer's background and qualifications.
+- **Legal Services Page**: Comprehensive information on the legal services offered, including consultation and specialized assistance across various practice areas.
+- **Insolvency Services Page**: Detailed information on the services provided in insolvency cases, from evaluating available options to completing the insolvency process.
+- **Information Page**: Useful information and resources for clients.
+- **Contact Page**: A form powered by EmailJS for users to send inquiries directly via email.
+- **Responsive Design**: Ensuring the app looks great on both desktop and mobile devices.
+
+## Setup and Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/AlexJora/next-lawyer.git
+   cd next-lawyer
+2. **Install dependencies:**
+   ```sh
+   npm install
+
 
 ## Getting Started
 
@@ -24,17 +63,34 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Project Structure
+ ```sh
+next-lawyer/
+├── public/
+│ ├── index.html
+│ └── ...
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ │ ├── avocatura.js
+│ │ ├── contact.js
+│ │ ├── index.js
+│ │ ├── insolventa.js
+│ │ ├── informatii-utile.js
+│ ├── styles/
+│ │ ├── globals.css
+│ │ └── ...
+│ ├── utils/
+│ ├── ...
+└── package.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Status
+This is a rebuilt React project (https://github.com/AlexJora/lawyer-website).
+The project is deployed on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+For any questions or support, please contact jora.catalinaa@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
