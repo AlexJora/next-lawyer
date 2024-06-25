@@ -8,6 +8,7 @@ import {
   faLocationDot,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
+import Script from "next/script";
 
 export const Contact = () => {
   return (
@@ -18,6 +19,14 @@ export const Contact = () => {
         description="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
         pageURL="https://www.alinamarin.ro/contact"
       />
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FJ187MGHYC');
+        `}
+      </Script>
       <div className={styles.contact_page}>
         <h1 className="text-center pt-5 fs-2 pb-lg-4">Contact</h1>
         <section>

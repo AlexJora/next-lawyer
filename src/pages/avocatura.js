@@ -9,6 +9,7 @@ import {
   faBriefcase,
   faScroll,
 } from "@fortawesome/free-solid-svg-icons";
+import Script from "next/script";
 
 const Avocatura = () => {
   return (
@@ -22,6 +23,14 @@ const Avocatura = () => {
        
         
       />
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FJ187MGHYC');
+        `}
+      </Script>
       <main className={styles.avocatura}>
         <div>
           <div className="pt-2 text-center">

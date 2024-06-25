@@ -10,18 +10,26 @@ import {
   faCommentsDollar,
   faGavel,
 } from "@fortawesome/free-solid-svg-icons";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <>
       <CustomHead
-       pageSlug="/"
-       title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
-       description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
-       keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, "
-       pageURL="https://www.alinamarin.ro/"
+        pageSlug="/"
+        title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
+        description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
+        keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, "
+        pageURL="https://www.alinamarin.ro/"
       />
-
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FJ187MGHYC');
+        `}
+      </Script>
       <main className={`${styles.home_page}`}>
         {/* HERO=========== */}
         <Container fluid>
@@ -51,9 +59,7 @@ export default function Home() {
               <Col
                 className={`${styles.hero_content} d-flex flex-column justify-content-start align-items-start pb-5 slide ps-lg-4`}
               >
-                <h1 className={`${styles.text_1} pb-3 pt-lg-2`}>
-                  ALINA MARIN
-                </h1>
+                <h1 className={`${styles.text_1} pb-3 pt-lg-2`}>ALINA MARIN</h1>
                 <h1 className={`${styles.text_2} fs-3`}>
                   BIROU DE AVOCAT SI INSOLVENTA
                   <span className="fw-bold fs-3">

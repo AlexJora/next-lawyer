@@ -3,6 +3,7 @@ import CustomHead from "../components/CustomHead";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
+import Script from "next/script";
 
 const Insolventa = () => {
   return (
@@ -14,6 +15,14 @@ const Insolventa = () => {
         keywords="insolvență, lichidare judiciară, faliment, procedură insolvență, deschidere procedură insolvență"
         pageURL="https://www.alinamarin.ro/insolventa"
       />
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FJ187MGHYC');
+        `}
+      </Script>
       <Container fluid className={styles.insolvency_page}>
         <Row>
           <Col className={styles.img_wrapper}>

@@ -1,6 +1,7 @@
 import styles from "@/styles/Informatii-utile.module.css";
 import CustomHead from "../components/CustomHead";
 import Accordion from "react-bootstrap/Accordion";
+import Script from "next/script";
 const info = () => {
   return (
     <>
@@ -10,6 +11,14 @@ const info = () => {
         description="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
         pageURL="https://www.alinamarin.ro/informatii-utile"
       />
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FJ187MGHYC');
+        `}
+      </Script>
 
       <div className={styles.info}>
         <h1 className="text-center pt-5 fs-2 pb-lg-3">Informatii utile</h1>
