@@ -10,7 +10,9 @@ const Insolventa = () => {
       <CustomHead
         pageSlug="/insolventa"
         title="Insolventa | Cabinet de avocat si insolventa Alina Marin - Bucuresti "
-        content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
+        description="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
+        keywords="insolvență, lichidare judiciară, faliment, procedură insolvență, deschidere procedură insolvență"
+        pageURL="https://www.alinamarin.ro/insolventa"
       />
       <Container fluid className={styles.insolvency_page}>
         <Row>

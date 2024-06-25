@@ -7,7 +7,8 @@ const info = () => {
       <CustomHead
         pageSlug="/informatii-utile"
         title="Informatii utile | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
-        content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+        description="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+        pageURL="https://www.alinamarin.ro/informatii-utile"
       />
 
       <div className={styles.info}>

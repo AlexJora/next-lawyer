@@ -16,7 +16,11 @@ const Avocatura = () => {
       <CustomHead
         pageSlug="/avocatura"
         title="Avocatura | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
-        content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+        description="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+        keywords="avocat bucuresti, cabinet avocat, drept civil, penal, avocat divort, executare silita"
+        pageURL="https://www.alinamarin.ro/avocatura"
+       
+        
       />
       <main className={styles.avocatura}>
         <div>

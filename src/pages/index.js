@@ -15,9 +15,11 @@ export default function Home() {
   return (
     <>
       <CustomHead
-        pageSlug="/"
-        title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
-        content="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
+       pageSlug="/"
+       title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
+       description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
+       keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, "
+       pageURL="https://www.alinamarin.ro/"
       />
 
       <main className={`${styles.home_page}`}>
