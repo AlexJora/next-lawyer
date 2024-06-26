@@ -19,7 +19,8 @@ export default function Home() {
         pageSlug="/"
         title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
         description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
-        keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, cabinet avocat, avocat bun"
+        keywords="avocat, avocat Bucuresti, cabinet avocat"
+
         pageURL="https://www.alinamarin.ro/"
       />
       <Script id="google-analytics" strategy="afterInteractive">

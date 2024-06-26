@@ -18,7 +18,7 @@ const Avocatura = () => {
         pageSlug="/avocatura"
         title="Avocat Bucuresti | Alina Marin"
         description="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
-        keywords="avocat bucuresti, cabinet avocat, drept civil, penal, avocat divort, executare silita"
+        keywords="drept civil, drept penal, avocat divort, executare silita, dreptul muncii, dreptul familiei, consultanta juridica"
         pageURL="https://www.alinamarin.ro/avocatura"
        
         
