@@ -21,6 +21,7 @@ export default function Home() {
         description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
         keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, "
         pageURL="https://www.alinamarin.ro/"
+        
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
@@ -30,7 +31,8 @@ export default function Home() {
           gtag('config', 'G-FJ187MGHYC');
         `}
       </Script>
-      <meta name="ahrefs-site-verification" content="4bdf59ad1caf47fc15f2aab55af239f7bf7c538538f358aa56ea6454a5a2dba9"></meta>
+      
+     
       <main className={`${styles.home_page}`}>
         {/* HERO=========== */}
         <Container fluid>
