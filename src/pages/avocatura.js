@@ -16,7 +16,7 @@ const Avocatura = () => {
     <>
       <CustomHead
         pageSlug="/avocatura"
-        title="Avocatura | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
+        title="Avocat Bucuresti | Alina Marin"
         description="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
         keywords="avocat bucuresti, cabinet avocat, drept civil, penal, avocat divort, executare silita"
         pageURL="https://www.alinamarin.ro/avocatura"
@@ -34,13 +34,13 @@ const Avocatura = () => {
       <main className={styles.avocatura}>
         <div>
           <div className="pt-2 text-center">
-            <h1 className="lh-base text-center pb-1 pb-2 pt-5 fs-2">
-              Servicii de avocatura
+            <h1 className="lh-base text-center pb-1 pb-2 pt-5">
+              Servicii de avocat
             </h1>
-            <h4 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
+            <h2 className={`${styles.subtitle} lh-base text-center px-3 pb-4`}>
               Oferim consultanță juridică și asistență specializată într-o serie
               de arii de practică
-            </h4>
+            </h2>
           </div>
           <div className="row g-5 px-3 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">

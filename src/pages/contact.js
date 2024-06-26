@@ -15,7 +15,7 @@ export const Contact = () => {
     <>
       <CustomHead
         pageSlug="/contact"
-        title=" Contact | Cabinet de avocat si insolventa Alina Marin - Bucuresti"
+        title="Contact | Avocat Bucuresti | Alina Marin"
         description="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
         pageURL="https://www.alinamarin.ro/contact"
       />

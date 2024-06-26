@@ -19,9 +19,8 @@ export default function Home() {
         pageSlug="/"
         title="Avocat Bucuresti | Alina Marin | Cabinet de avocat si insolventa"
         description="Consultanță, asistență și reprezentare pentru probleme juridice, de insolvență sau recuperare de creanțe în fața instanțelor și autorităților publice."
-        keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, "
+        keywords="Bucuresti, bucuresti, avocat, insolvență, recuperare creanțe, drept comercial, drept civil, dreptul muncii, dreptul familiei, procedura insolvenței, cabinet avocat, avocat bun"
         pageURL="https://www.alinamarin.ro/"
-        
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
@@ -31,8 +30,7 @@ export default function Home() {
           gtag('config', 'G-FJ187MGHYC');
         `}
       </Script>
-      
-     
+
       <main className={`${styles.home_page}`}>
         {/* HERO=========== */}
         <Container fluid>
@@ -163,9 +161,12 @@ export default function Home() {
           <Row>
             <Col lg={7}>
               <div className="card-body">
-                <h1 className="text-center pb-4 fs-2 mx-auto lh-base px-md-5 pt-2">
-                  Va confruntați cu o problemă juridică sau de insolvență?
+                <h1 className="text-center pb-4 fs-2 mx-auto lh-base px-md-5 pt-4">
+                  Sunteți în căutarea unui avocat în București?
                 </h1>
+                <h2 className="text-center pb-4 fs-4 mx-auto lh-base px-md-5">
+                  Consultanță și asistență în probleme juridice și de insolvență
+                </h2>
 
                 <div>
                   <Image

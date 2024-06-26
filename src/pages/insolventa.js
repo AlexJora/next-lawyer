@@ -10,12 +10,13 @@ const Insolventa = () => {
     <>
       <CustomHead
         pageSlug="/insolventa"
-        title="Insolventa | Cabinet de avocat si insolventa Alina Marin - Bucuresti "
-        description="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
-        keywords="insolvență, lichidare judiciară, faliment, procedură insolvență, deschidere procedură insolvență"
+        title="Insolventa | Avocat Bucuresti | Alina Marin"
+        description="Cabinetul nostru oferă asistență specializată în procedurile de insolvență, acoperind toate etapele de la evaluarea opțiunilor disponibile până la finalizarea procesului. Oferim servicii precum lichidarea judiciară, redactarea cererilor de deschidere a procedurii de insolvență, reprezentarea în instanță, și consultanță în modificarea capitalului social și alte operațiuni societare."
+        keywords="insolventa Bucuresti, procedura insolventei, avocat insolventa, lichidare judiciara, recuperare creante, reorganizare judiciara, consultanta insolventa, avocat drept comercial"
         pageURL="https://www.alinamarin.ro/insolventa"
+         
       />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="afterInteractive">-
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -39,13 +40,13 @@ const Insolventa = () => {
 
         <Row className="align-items-center justify-content-center">
           <Col>
-            <h1 className=" lh-base text-center pt-5 pb-2 fs-2 px-2">
+            <h1 className=" lh-base text-center pt-5 pb-2 px-2">
               Servicii de insolvență
             </h1>
-            <h4 className={`${styles.subtitle} lh-base text-center px-3 pb-5`}>
+            <h2 className={`${styles.subtitle} lh-base text-center px-3 pb-5`}>
               Oferim asistență specializată în procedurile de insolvență, de la
               evaluarea opțiunilor disponibile și până la finalizarea procesului
-            </h4>
+            </h2>
           </Col>
         </Row>
         <Row className="justify-content-center">
