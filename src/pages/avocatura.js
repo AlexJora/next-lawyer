@@ -16,9 +16,9 @@ const Avocatura = () => {
     <>
       <CustomHead
         pageSlug="/avocatura"
-        title="Avocat Bucuresti | Alina Marin"
-        description="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
-        keywords="drept civil, drept penal, avocat divort, executare silita, dreptul muncii, dreptul familiei, consultanta juridica"
+        title="Servicii Avocat Bucuresti | Drept Civil, Penal, Comercial | Alina Marin"
+        description="Avocat Bucuresti - Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+        keywords="avocat drept civil, avocat drept penal, avocat divort,avocat executare silita, avocat dreptul muncii,avocat dreptul familiei, consultanta juridica"
         pageURL="https://www.alinamarin.ro/avocatura"
        
         

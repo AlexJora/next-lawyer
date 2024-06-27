@@ -10,9 +10,9 @@ const Insolventa = () => {
     <>
       <CustomHead
         pageSlug="/insolventa"
-        title="Insolventa | Avocat Bucuresti | Alina Marin"
+        title="Avocat Insolventa Bucuresti | Lichidare Judiciara | Alina Marin"
         description="Cabinetul nostru oferă asistență specializată în procedurile de insolvență, acoperind toate etapele de la evaluarea opțiunilor disponibile până la finalizarea procesului. Oferim servicii precum lichidarea judiciară, redactarea cererilor de deschidere a procedurii de insolvență, reprezentarea în instanță, și consultanță în modificarea capitalului social și alte operațiuni societare."
-        keywords="insolventa Bucuresti, procedura insolventei, avocat insolventa, lichidare judiciara, recuperare creante, reorganizare judiciara, consultanta insolventa, avocat drept comercial"
+        keywords="insolventa Bucuresti, procedura insolventei, avocat insolventa, lichidare judiciara, recuperare creante, reorganizare judiciara, consultanta insolventa, avocat drept comercial, faliment, lichidator judiciar"
         pageURL="https://www.alinamarin.ro/insolventa"
          
       />
