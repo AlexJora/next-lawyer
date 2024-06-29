@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a Next.js-based front-end application developed for a lawyer specializing in legal and insolvency services. The application consists of five pages, providing users with information about the services offered, contact details, and more.
+This project is a Next.js-based front-end application (Pages Router) developed for a lawyer specializing in legal and insolvency services. The application consists of five pages, providing users with information about the services offered, contact details, and more.
 
 ## Technologies Used
 
